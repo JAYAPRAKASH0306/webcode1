@@ -1,0 +1,34 @@
+/* Styles for the search form */
+#search-form {
+    display: flex;
+    margin-bottom: 20px;
+    radius: 5%;
+  }
+  
+  #search-filter {
+  
+    padding: 5px;
+    width: 200px;
+  }
+  
+  button[type="submit"] {
+    padding: 5px 10px;
+  }
+  
+  /* Styles for the result container */
+  #result-container {
+    margin-bottom: 20px;
+    
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  /* Styles for the error container */
+  #error-container {
+    color: red;
+    font-weight: bold;
+  }
+  
